@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Olven Satış - Profesyonel Web Çözümleri</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <link rel="icon" href="Ekran görüntüsü 2026-02-09 211549.png">
+</head>
+<body>
+
+
+<div id="topAlert" class="top-alert">
+    <div class="alert-container">
+        <div class="alert-icon">
+            <i class="fas fa-rocket"></i>
+        </div>
+        <div class="alert-message">
+            <strong>YAKINDA GELİYOURUM!</strong> Bitirmem gereken siparişlerim var bitsin hemen geliyorum...
+        </div>
+        <div class="alert-progress">
+            <div class="progress-bar" id="progressBar"></div>
+        </div>
+        <button class="alert-close" id="alertCloseBtn">
+            <i class="fas fa-times"></i>
+        </button>
+    </div>
+</div>
+
+<div class="dis-cerceve">
+    
+    <header class="header" id="header">
+        <div class="header-icerik">
+            <div class="logo">
+                <a href="#">
+                    <img src="Stand Up Reaction GIF by Xbox.gif" alt="Olven Logo" class="logo-gif" >
+                    <span style="font-family: 'Dancing Script', cursive;">OLVEN DEV.</span>
+                </a>
+            </div>
+            <nav class="menu">
+                <a href="#anasayfa"><i class="fas fa-home"></i> ANASAYFA</a>
+                <a href="#hakkımda"><i class="fas fa-user"></i> HAKKIMDA</a>
+                <a href="#hizmetler"><i class="fas fa-laptop-code"></i> HİZMETLER</a>
+                <a href="#iletisim"><i class="fas fa-envelope"></i> İLETİŞİM</a>
+            </nav>
+            <div class="menu-toggle" id="menuToggle">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </header>
+
+    <section class="ana-sayfa" id="anasayfa">
+        <div class="slider" id="slider">
+            <button class="slider-buton sol" id="oncekiBtn">❮</button>
+            
+            <div class="slider-yol">
+                <div class="slider-resim aktif">
+                    <div class="slider-overlay">
+                        <h1>PROFESYONEL WEB ÇÖZÜMLERİ</h1>
+                        <p>Modern ve hızlı web siteleri</p>
+                    </div>
+                    <img src="https://images.pexels.com/photos/270404/pexels-photo-270404.jpeg" alt="Web Tasarım">
+                </div>
+                <div class="slider-resim">
+                    <div class="slider-overlay">
+                        <h1>ÖZEL YAZILIM GELİŞTİRME</h1>
+                        <p>İhtiyacınıza özel çözümler</p>
+                    </div>
+                    <img src="https://images.pexels.com/photos/3184454/pexels-photo-3184454.jpeg" alt="Yazılım Geliştirme">
+                </div>
+                <div class="slider-resim">
+                    <div class="slider-overlay">
+                        <h1>E-TİCARET SİTELERİ</h1>
+                        <p>Güvenli alışveriş deneyimi</p>
+                    </div>
+                    <img src="https://images.unsplash.com/photo-1550745165-9bc0b252726f?ixlib=rb-1.2.1&auto=format&fit=crop&w=1920&h=1080" alt="E-Ticaret">
+                </div>
+            </div>
+            
+            <button class="slider-buton sag" id="sonrakiBtn">❯</button>
+            
+            <div class="slider-noktalar" id="sliderNoktalar"></div>
+        </div>
+    </section>
+
+    <section class="bolum" id="hakkımda">
+        <div class="container">
+            <h2 class="bolum-baslik" style="font-family: 'Dancing Script', cursive;"><i class=""></i> HAKKIMDA</h2>
+            <div class="hakkımda-icerik">
+                <div class="profil-resim">
+                    <img src="Stand Up Reaction GIF by Xbox.gif" alt="Olven Satış">
+                    <div class="profil-bilgi">
+                        <h3 style="font-family: 'Dancing Script', cursive;">Olven DEV.</h3>
+                        <p>Web Geliştirici & Tasarımcı</p>
+                        <div class="sosyal-medya kapali-link">
+                            <a href="#"><i class="fab fa-instagram"></i></a>
+                            <a href="#"><i class="fab fa-whatsapp"></i></a>
+                            <a href="#"><i class="fab fa-github"></i></a>
+                            <a href="#"><i class="fab fa-linkedin"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="hakkımda-text">
+                    <h3>Merhaba,   OLVEN DEV'e Hoş Geldiniz!</h3>
+                    <p>En kaliteli web çözümlerini en uygun fiyatlarla sunmak için buradayız. İhtiyacınız olan her şeyi tek bir yerde bulabilirsiniz.</p>
+                    <p>Uzun zamandır dijital başarılara imza atıyorum ve bu deneyimimi sizlerle paylaşmak için buradayım. Modern, hızlı ve SEO uyumlu web siteleri geliştiriyorum.</p>
+                    <div class="ozellikler">
+                        <span><i class="fas fa-check"></i> 5+ Yıl Deneyim</span>
+                        <span><i class="fas fa-check"></i> 50+ Proje</span>
+                        <span><i class="fas fa-check"></i> %100 Müşteri Memnuniyeti</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+    <section class="bolum koyu" id="hizmetler">
+        <div class="container">
+            <h2 class="bolum-baslik" style="font-family: 'Dancing Script', cursive;"><i class=""></i> HİZMETLERİMİZ</h2>
+            
+           
+            
+            
+            <div class="hizmetler-grid">
+                <div class="hizmet-kart">
+                    <div class="hizmet-icon">
+                        <i class="fas fa-paint-brush"></i>
+                    </div>
+                    <h3>Biyografi Sitesi</h3>
+                    <p class="fiyat">ÇOK YAKINDA</p>
+                    <ul>
+                        <li><i class="fas fa-check"></i> Sadece Frontend</li>
+                        <li><i class="fas fa-check"></i> Responsive Tasarım</li>
+                        <li><i class="fas fa-check"></i> Domain + Hosting</li>
+                        <li><i class="fas fa-times"></i> Backend Yok</li>
+                    </ul>
+                    <button class="siparis-btn kapali-btn">YAKINDA</button>
+                </div>
+                
+                <div class="hizmet-kart populer">
+                    <div class="populer-badge">POPÜLER</div>
+                    <div class="hizmet-icon">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <h3>Biyografi Sitesi Pro</h3>
+                    <p class="fiyat">ÇOK YAKINDA</p>
+                    <ul>
+                        <li><i class="fas fa-check"></i> Frontend + Backend</li>
+                        <li><i class="fas fa-check"></i> Admin Paneli</li>
+                        <li><i class="fas fa-check"></i> Veritabanı</li>
+                        <li><i class="fas fa-check"></i> Domain + Hosting</li>
+                    </ul>
+                    <button class="siparis-btn kapali-btn">YAKINDA</button>
+                </div>
+                
+                <div class="hizmet-kart">
+                    <div class="hizmet-icon">
+                        <i class="fas fa-shopping-cart"></i>
+                    </div>
+                    <h3>E-Ticaret Sitesi</h3>
+                    <p class="fiyat">ÇOK YAKINDA</p>
+                    <ul>
+                        <li><i class="fas fa-check"></i> Tam Entegre Sistem</li>
+                        <li><i class="fas fa-check"></i> Ödeme Entegrasyonu</li>
+                        <li><i class="fas fa-check"></i> Ürün Yönetimi</li>
+                        <li><i class="fas fa-check"></i> Domain + Hosting</li>
+                    </ul>
+                    <button class="siparis-btn kapali-btn">YAKINDA</button>
+                </div>
+                
+                <div class="hizmet-kart">
+                    <div class="hizmet-icon">
+                        <i class="fas fa-cogs"></i>
+                    </div>
+                    <h3>Özel Yazılım</h3>
+                    <p class="fiyat">ÇOK YAKINDA</p>
+                    <ul>
+                        <li><i class="fas fa-check"></i> Özel Çözümler</li>
+                        <li><i class="fas fa-check"></i> Kurumsal Sistemler</li>
+                        <li><i class="fas fa-check"></i> API Geliştirme</li>
+                        <li><i class="fas fa-check"></i> Teknik Destek</li>
+                    </ul>
+                    <button class="siparis-btn kapali-btn">YAKINDA</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+   
+    <section class="bolum" id="iletisim">
+        <div class="container">
+            <h2 class="bolum-baslik" style="font-family: 'Dancing Script', cursive;"><i class="fas fa-envelope"></i> İLETİŞİM</h2>
+            
+            
+            
+            
+            <div class="iletisim-icerik-sade">
+                <div class="iletisim-aciklama">
+                    
+    
+                    
+                </div>
+                
+                <div class="sosyal-medya-buyuk">
+                    <a href="https://wa.me/BURAYA TEL" class="sosyal-link whatsapp kapali-link" target="_blank">
+                        <i class="fab fa-whatsapp"></i>
+                        <span>WhatsApp</span>
+                        <small>Ön kayıt için</small>
+                    </a>
+                    
+                    <a href="https://instagram.com/BURAYA İNSTA " class="sosyal-link instagram kapali-link" target="_blank">
+                        <i class="fab fa-instagram"></i>
+                        <span>Instagram</span>
+                        <small>Yakında</small>
+                    </a>
+                    
+                    <a href="mailto:BURAYA EMAIL ADRESİ" class="sosyal-link email kapali-link">
+                        <i class="fas fa-envelope"></i>
+                        <span>Email</span>
+                        <small>Yakında</small>
+                    </a>
+                    
+                    <a href="https://github.com/BURAYA GİT" class="sosyal-link github kapali-link" target="_blank">
+                        <i class="fab fa-github"></i>
+                        <span>GitHub</span>
+                        <small>Yakında</small>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="ziyaretci-sayaci">
+        <i class="fas fa-users"></i>
+        <span id="liveCounter">0</span> kişi şu anda sitede
+    </div>
+    <!-- 
+    <a href="https://wa.me/BURAYA TEL?text=Merhaba,%20Olven%20Satış%20web%20sitesinden%20ulaşıyorum." 
+       class="whatsapp-btn kapali-link" 
+       target="_blank">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+         -->
+    <footer class="footer">
+        <div class="footer-icerik">
+            <div class="footer-logo">
+                <img src="Stand Up Reaction GIF by Xbox.gif" alt="Olven Logo" class="footer-logo-gif">
+                OLVEN DEV.
+            </div>
+            <div class="footer-menu">
+                <a href="#anasayfa">Anasayfa</a>
+                <a href="#hakkımda">Hakkımda</a>
+                <a href="#hizmetler">Hizmetler</a>
+                <a href="#iletisim">İletişim</a>
+            </div>
+            <div class="footer-sosyal kapali-link">
+                <a href="https://instagram.com/BURAYA İNSTA" target="_blank"><i class="fab fa-instagram"></i></a>
+                <a href="https://wa.me/BURAYA TEL" target="_blank"><i class="fab fa-whatsapp"></i></a>
+                <a href="https://github.com/BURAYA GİT" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="https://linkedin.com/BURAYA LINKEDIN" target="_blank"><i class="fab fa-linkedin"></i></a>
+            </div>
+            <div class="footer-alt">
+                <p>© 2026 Olven Satış. Tüm hakları saklıdır.</p>
+                <p class="lisans">Made with in Olven</p>
+            </div>
+        </div>
+    </footer>
+</div>
+
+<script src="main.js"></script>
+</body>
+</html>
